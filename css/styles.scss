@@ -1,0 +1,31 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+body {
+     font-family: helvetica, sans-serif;
+     width: 350px;
+   }
+
+   label {
+     font-weight: bold;
+   }
+
+   div {
+     padding-bottom: 20px;
+   }
+
+   input[type="text"] {
+     padding: 5px;
+     width: 150px;
+   }
+
+   p {
+     background: #edb3af;
+     color: #5E2612;
+     padding: 10px;
+     visibility: hidden;
+   }
