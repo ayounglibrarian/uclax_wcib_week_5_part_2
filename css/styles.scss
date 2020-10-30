@@ -5,6 +5,14 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+html,
+body {
+  height: 100%;
+  background-image: url("../images/booksbg.jpg");
+  font-family: Helvetica,sans-serif;
+  color: black; }
+
 body {
      font-family: helvetica, sans-serif;
      width: 350px;
