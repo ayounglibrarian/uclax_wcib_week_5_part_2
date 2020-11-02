@@ -3,25 +3,22 @@
 
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
-
-    <title>Week 5, Part 2: Silly Story Generator</title>
+    <title>Silly Story Generator</title>
 
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>-->
   </head>
 
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Silly Story Generator</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,20 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+
             </div>
           </li>
         </ul>
@@ -53,20 +37,51 @@
       </div>
     </nav>
 
-    <main role="main" class="container">
+    <main class="container">
 
-      <div>
-          <label for="customname">Enter custom name:</label>
-          <input id="customname" type="text" placeholder="">
-        </div>
-        <div>
-          <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
-          <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
-        </div>
-        <div>
-          <button class="randomize">Generate random story</button>
-        </div>
+      <div class="starter-template">
+        <h1 class="textbackground">Silly Story Generator</h1>
+        <h1 class="lead textbackground">Add in a name and city and see what happens next!</h1>
+            </div>
+            <div>
+                <label for="customname">Enter custom name:</label>
+                <input id="customname" type="text" placeholder="">
+              </div>
+
+              <div>
+                <label for="customcity">Enter custom city:</label>
+                <input id="customcity" type="text" placeholder="">
+              </div>
+
+              <div>
+                <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+                <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+              </div>
+
+              <div>
+                <label for="earth">Earth</label><input id="earth" type="radio" name="earthmoon" value="earth" checked>
+                <label for="moon">Moon</label><input id="moon" type="radio" name="earthmoon" value="moon">
+              </div>
+
+              <div>
+                <button class="randomize">Generate random story</button>
+              </div>
+      <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+              <p class="story textbackground"></p>
+
+              <p class="question textbackground"></p>
+
+              <div id="rightHere"></div>
+
+              <div id="reloadlocation"></div>
 
 
-	</body>
+            </main><!-- /.container -->
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/scripts.js"></script>
+
+</body>
 </html>

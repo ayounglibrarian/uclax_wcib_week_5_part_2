@@ -1,16 +1,18 @@
 body {
-  padding-top: 5rem; }
+  padding-top: 5rem;
+  background-image: url("../images/bookbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%; }
 
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center; }
 
-html,
-body {
-  height: 100%;
-  background-image: url("../images/booksbg.jpg");
-  font-family: Helvetica,sans-serif;
-  color: black; }
+h1 {
+  font-family: "Courier New";
+  font-weight: bold; }
 
 body {
   font-family: helvetica, sans-serif;
