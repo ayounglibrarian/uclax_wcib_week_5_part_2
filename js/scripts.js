@@ -129,7 +129,7 @@ function cupcakeEnd() {
   //cupcake.parentNode.removeChild(cupcake); //removes button
   cupcake.disabled = true;
   cookie.disabled = true;
-      //document.body.style.background = 'url(../images/cupcake.jpg) no-repeat center center';
+      document.body.style.background = 'url(../images/cupcake.jpg) no-repeat center center';
       document.body.className += ' cupcakebackground';
 
       final = document.createElement('button');
@@ -151,8 +151,9 @@ function cookieEnd() {
   document.getElementById("reloadlocation").appendChild(final);
 
   final.addEventListener('click', endGame);
-    //document.body.style.background = 'url(../images/cookie.jpg) no-repeat center center ';
-    //location.reload(); // reload the entire page
+  console.log("here at line 154!"); 
+  document.body.style.background = 'url(../images/cookie.jpg) no-repeat center center ';
+  
 }
 
 
