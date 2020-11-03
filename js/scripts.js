@@ -129,7 +129,7 @@ function cupcakeEnd() {
   //cupcake.parentNode.removeChild(cupcake); //removes button
   cupcake.disabled = true;
   cookie.disabled = true;
-      document.body.style.background = 'url(http://musicbybrianyoung.com/uclax_wcib_week_5_part_2/images/cupcake.jpg) no-repeat center center';
+      document.body.style.background = 'url(../images/cupcake.jpg) no-repeat center center';
 
 ) no-repeat center center';
       document.body.className += ' cupcakebackground';
@@ -154,7 +154,7 @@ function cookieEnd() {
 
   final.addEventListener('click', endGame);
   console.log("here at line 154!"); 
-  document.body.style.background = 'url(http://musicbybrianyoung.com/uclax_wcib_week_5_part_2/images/cookie.jpg) no-repeat center center';
+  document.body.style.background = 'url(../images/cookie.jpg) no-repeat center center';
 
 ) no-repeat center center ';
 
