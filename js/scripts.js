@@ -153,7 +153,7 @@ function cookieEnd() {
   final.addEventListener('click', endGame);
   console.log("here at line 154!"); 
   document.body.style.background = 'url(../images/cookie.jpg) no-repeat center center ';
-  
+
 }
 
 
